@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+import os
+import sys
+
+directory = os.path.expanduser("~/CS3030/CS3030-Labs")
+
+if os.path.exists(directory):
+    sys.stdout.write(f"Success: Directory '{directory}' exists.\n")
+else:
+    sys.stderr.write(f"Error: Directory '{directory}' was not found.\n")
