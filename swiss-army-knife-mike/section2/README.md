@@ -1,0 +1,3 @@
+Security Report: Why 'shell=True' is Dangerous
+
+When 'shell=True' is used with 'subprocess.run()', Python passes the entrire command to the OS shell as a raw string. This means the shell interprts special characters like ';', '&', and '|', allowing an attacker to chain additional commands onto user input. Developers should never use 'shell=True' with unvalidated user input. Always pass commands as a list of arguments to keep your system safe.
