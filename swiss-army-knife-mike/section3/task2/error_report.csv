@@ -1,0 +1,4 @@
+Date,Error Type,Message
+2026-05-02 19:15,ERROR,Failed login attempt from 203.0.113.77
+2026-05-02 19:22,ERROR,Disk quota exceeded on node 172.16.0.5
+2026-05-02 19:45,ERROR,Database timeout on 192.168.1.20

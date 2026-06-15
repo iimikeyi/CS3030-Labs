@@ -1,0 +1,12 @@
+[2026-05-02 19:08] INFO Server started on 192.168.1.1 port 8080
+[2026-05-02 19:09] INFO Client connected from 10.0.0.42
+[2026-05-02 19:11] WARNING High memory usage detected on 192.168.1.1
+[2026-05-02 19:15] ERROR Failed login attempt from 203.0.113.77
+[2026-05-02 19:18] INFO Backup completed successfully on 192.168.1.10
+[2026-05-02 19:22] ERROR Disk quota exceeded on node 172.16.0.5
+[2026-05-02 19:30] CRITICAL Service unreachable at 10.0.0.1
+[2026-05-02 19:35] INFO New user registered via 198.51.100.23
+[2026-05-02 19:40] WARNING Unauthorized access attempt from 203.0.113.99
+[2026-05-02 19:45] ERROR Database timeout on 192.168.1.20
+[2026-05-02 19:50] INFO Scheduled maintenance triggered by 10.0.0.5
+[2026-05-02 19:55] CRITICAL Firewall rule violation detected from 172.16.0.9
