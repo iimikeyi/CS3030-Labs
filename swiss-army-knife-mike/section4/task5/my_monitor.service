@@ -1,0 +1,14 @@
+[Unit]
+Description=System Heartbeat Monitor
+After=network.target
+
+[Service]
+ExecStart=/home/msorensen/CS3030/CS3030-Labs/swiss-army-knife-mike/.venv/bin/python3 -u /home/msorensen/CS3030/CS3030-Labs/swiss-army-knife-mike/section4/task1/monitor.py
+Restart=always
+RestartSec=5
+User=msorensen
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
